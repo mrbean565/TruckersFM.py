@@ -1,2 +1,3 @@
 # TruckersFM.py
-A simple api wrapper for TruckersFM
+
+All files/folders are simply a template. This project has just started devlopment.
