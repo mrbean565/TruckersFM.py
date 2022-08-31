@@ -15,7 +15,7 @@ Simple API wrapper for TruckersFM, the popular simulating radio station.
 
 You can install this module via github or PyPI:
 ```bash
-$ pip install git+https://github.com/supraaxdd/TruckersMP.py.git
+$ pip install git@github.com:mrbean565/TruckersFM.py.git
 ```
 
 ```bash
