@@ -13,11 +13,32 @@ Simple API wrapper for TruckersFM, the popular simulating radio station.
 
 **This module is compatible with Python v3+**
 
-You can install this module via github or PyPI:
+You can install this module via PyPI:
 ```bash
-$ pip install git@github.com:mrbean565/TruckersFM.py.git
+$ pip install truckersfm.py
 ```
 
-```bash
-$ pip install TruckersFM.py
+ 
+## Usage
+
+```py
+from truckersfm import TruckersFM
+
+truckersmp = TruckersFM()
+
+# Returns the song currently playing
+print(truckersfm.currentSong())
+
+# Fetches current song title
+print(truckersfm.currentSongTitle()) 
+
+# Fetches current song artist
+print(truckersfm.currentSongArtist()) 
+
+```
+
+```py
+
+currentSong = truckersfm.currentSong()
+
 ```
