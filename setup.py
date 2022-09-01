@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="truckersfm.py",
-    version="1.0.0.0",
+    version="2.0.1",
     description="Simple API Wrapper for the TruckersFM API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/mrbean565/TruckersFM.py,
+    url="https://github.com/mrbean565/TruckersFM.py",
     author="Bean",
-    author_email="bean@truckerbean.com,
+    author_email="bean@truckerbean.com",
     license="GNU",
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -21,5 +21,7 @@ setup(
     keywords="api wrapper truckersfm",
     python_requires=">=3.7",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[
+        'requests'
+        ],
 )
