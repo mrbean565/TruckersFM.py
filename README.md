@@ -3,16 +3,10 @@
 Simple API wrapper for TruckersFM, the popular simulating radio station.
 
 # Table of contents
-- [Installation and setup](# TruckersFM.py
-
-Simple API wrapper for TruckersFM, the popular simulating radio station.
-
-# Table of contents
 - [Installation and setup](https://github.com/mrbean565/TruckersFM.py#installation-and-setup)
 - [Usage](https://github.com/mrbean565/TruckersFM.py#usage)
-- [Support](https://github.com/supraaxdd/TruckersMP.py/#support)
-- [Contributing](https://github.com/supraaxdd/TruckersMP.py/#contributing)
-- [Acknowledgements](https://github.com/supraaxdd/TruckersMP.py/#acknowledgements)
+- [Support](https://github.com/mrbean565/TruckersFM.py/#support)
+
 
 ## Installation and setup
 
@@ -49,3 +43,19 @@ Without calling a function eachtime:
 currentSong = truckersfm.currentSong()
 
 ```
+
+Available Methods:
+
+```py
+currentSong()                # Fetches current song
+currentSongTitle()           # Fetches current song title
+currentSongArtist()          # Fetches current song artist
+currentPresenter()           # Fetches current presenter
+currentPresenterName()       # Fetches current presenter's name
+currentShow()                # Fetches current show
+currentShowTitle()           # Fetches current show title                    
+```
+
+## Support
+
+If you need help with anything, you should preferably contact BEAN#0001 on discord. If that is not possible, feel free to open a new issue. Note that if the issue is invalid, it may be closed.
